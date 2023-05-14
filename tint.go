@@ -172,47 +172,127 @@ func (t *Tint) White() *Tint {
 	return t.WithFGColor(FG_WHITE)
 }
 
-// NormalBG returns a new tint with the base background color applied
+// BrightBlack returns a new tint with the bright black foreground color applied
+func (t *Tint) BrightBlack() *Tint {
+	return t.WithFGColor(FG_BRIGHT_BLACK)
+}
+
+// BrightRed returns a new tint with the bright red foreground color applied
+func (t *Tint) BrightRed() *Tint {
+	return t.WithFGColor(FG_BRIGHT_RED)
+}
+
+// BrightGreen returns a new tint with the bright green foreground color applied
+func (t *Tint) BrightGreen() *Tint {
+	return t.WithFGColor(FG_BRIGHT_GREEN)
+}
+
+// BrightYellow returns a new tint with the bright yellow foreground color applied
+func (t *Tint) BrightYellow() *Tint {
+	return t.WithFGColor(FG_BRIGHT_YELLOW)
+}
+
+// BrightBlue returns a new tint with the bright blue foreground color applied
+func (t *Tint) BrightBlue() *Tint {
+	return t.WithFGColor(FG_BRIGHT_BLUE)
+}
+
+// BrightMagenta returns a new tint with the bright magenta foreground color applied
+func (t *Tint) BrightMagenta() *Tint {
+	return t.WithFGColor(FG_BRIGHT_MAGENTA)
+}
+
+// BrightCyan returns a new tint with the bright cyan foreground color applied
+func (t *Tint) BrightCyan() *Tint {
+	return t.WithFGColor(FG_BRIGHT_CYAN)
+}
+
+// BrightWhite returns a new tint with the bright white foreground color applied
+func (t *Tint) BrightWhite() *Tint {
+	return t.WithFGColor(FG_BRIGHT_WHITE)
+}
+
+// OnNormal returns a new tint with the base background color applied
 func (t *Tint) OnNormal() *Tint {
 	return t.WithBGColor(_NORMAL_BG)
 }
 
-// BlackBG returns a new tint with the black background color applied
+// OnBlack returns a new tint with the black background color applied
 func (t *Tint) OnBlack() *Tint {
 	return t.WithBGColor(BG_BLACK)
 }
 
-// RedBG returns a new tint with the red background color applied
+// OnRed returns a new tint with the red background color applied
 func (t *Tint) OnRed() *Tint {
 	return t.WithBGColor(BG_RED)
 }
 
-// GreenBG returns a new tint with the green background color applied
+// OnGreen returns a new tint with the green background color applied
 func (t *Tint) OnGreen() *Tint {
 	return t.WithBGColor(BG_GREEN)
 }
 
-// YellowBG returns a new tint with the yellow background color applied
+// OnYellow returns a new tint with the yellow background color applied
 func (t *Tint) OnYellow() *Tint {
 	return t.WithBGColor(BG_YELLOW)
 }
 
-// BlueBG returns a new tint with the blue background color applied
+// OnBlue returns a new tint with the blue background color applied
 func (t *Tint) OnBlue() *Tint {
 	return t.WithBGColor(BG_BLUE)
 }
 
-// MagentaBG returns a new tint with the magenta background color applied
+// OnMagenta returns a new tint with the magenta background color applied
 func (t *Tint) OnMagenta() *Tint {
 	return t.WithBGColor(BG_MAGENTA)
 }
 
-// CyanBG returns a new tint with the cyan background color applied
+// OnCyan returns a new tint with the cyan background color applied
 func (t *Tint) OnCyan() *Tint {
 	return t.WithBGColor(BG_CYAN)
 }
 
-// WhiteBG returns a new tint with the white background color applied
+// OnWhite returns a new tint with the white background color applied
 func (t *Tint) OnWhite() *Tint {
 	return t.WithBGColor(BG_WHITE)
+}
+
+// OnBrightBlack returns a new tint with the bright black background color applied
+func (t *Tint) OnBrightBlack() *Tint {
+	return t.WithBGColor(BG_BRIGHT_BLACK)
+}
+
+// OnBrightRed returns a new tint with the bright red background color applied
+func (t *Tint) OnBrightRed() *Tint {
+	return t.WithBGColor(BG_BRIGHT_RED)
+}
+
+// OnBrightGreen returns a new tint with the bright green background color applied
+func (t *Tint) OnBrightGreen() *Tint {
+	return t.WithBGColor(BG_BRIGHT_GREEN)
+}
+
+// OnBrightYellow returns a new tint with the bright yellow background color applied
+func (t *Tint) OnBrightYellow() *Tint {
+	return t.WithBGColor(BG_BRIGHT_YELLOW)
+}
+
+// OnBrightBlue returns a new tint with the bright blue background color applied
+func (t *Tint) OnBrightBlue() *Tint {
+	return t.WithBGColor(BG_BRIGHT_BLUE)
+}
+
+// OnBrightMagenta returns a new tint with the bright magenta background color applied
+func (t *Tint) OnBrightMagenta() *Tint {
+	return t.WithBGColor(BG_BRIGHT_MAGENTA)
+}
+
+// OnBrightCyan returns a new tint with the bright cyan background color applied
+func (t *Tint) OnBrightCyan() *Tint {
+	return t.WithBGColor(BG_BRIGHT_CYAN)
+}
+
+// OnBrightWhite returns a new tint with the bright white background color applied
+func (t *Tint) OnBrightWhite() *Tint {
+	return t.WithBGColor(BG_BRIGHT_WHITE)
 }
